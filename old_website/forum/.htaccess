@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^forum\.falconsfirst\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.forum\.falconsfirst\.com$
+RewriteRule ^/?$ "http\:\/\/phsfirstrobotics\.freeforums\.org\/" [R=301,L]
+
